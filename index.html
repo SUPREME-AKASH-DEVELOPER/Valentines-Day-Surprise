@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Surprise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Floating Hearts -->
+    <div class="heart-container"></div>
+
+    <!-- Valentine Message -->
+    <h1 class="valentine-text">Happy Valentine's Day ❤️</h1>
+    <p class="sub-text">"Will you be my Valentine?"</p>
+
+    <!-- YES and NO Buttons -->
+    <div class="button-container">
+        <button id="yes-btn">YES! 💞</button>
+        <button id="no-btn">NO! 💔</button>
+    </div>
+
+    <!-- Hidden Elements (Appear After YES) -->
+    <div id="after-yes" class="hidden">
+        <div class="message-box">
+            <p class="message-text">
+                Happy Valentine’s Day, You Beautiful Soul! 💖🌹 <br><br>
+                Today, I just want you to know—you are loved, deeply and endlessly. Not just in the grand, fairy-tale way, but in the quiet, everyday moments where your kindness, your laughter, and your presence make the world a better place. <br><br>
+                If life ever makes you feel unseen, unheard, or unimportant, I want you to remember this—you matter. You are worthy of love that is patient, love that is kind, love that never asks you to be anything but exactly who you are. <br><br>
+                I promise you this: <br>
+                💌 You will never have to walk alone, because love—real love—always finds its way to hearts as beautiful as yours.<br>
+                💌 No matter how hard life gets, you will always be enough. More than enough.<br>
+                💌 You are deserving of the kind of love that fills your soul, that makes you feel safe, and that reminds you just how extraordinary you are.<br><br>
+                So today, if you feel even the slightest bit unloved, let me remind you: You are loved beyond words. You are someone’s warmth, someone’s reason to smile, and someone’s greatest treasure. And if the world ever forgets to tell you that, I never will. <br><br>
+                ❤️✨ Happy Valentine’s Day, from my heart to yours. ✨❤️
+            </p>
+        </div>
+        
+        <button id="play-song">🎵 Play Song</button>
+        <img src="assets/qr-code.png" id="qr-code" alt="Scan Me!">
+    </div>
+
+    <audio id="bg-music" src="assets/background-music.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
